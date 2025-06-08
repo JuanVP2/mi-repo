@@ -115,6 +115,7 @@ class Mago(Personaje):
         return self.__inteligencia * self.libro - mi_enemigo.vida
 
 goku = Guerrero("goku", 500, 300, 100, 100,2)
+gohan = Guerrero("goku", 500, 300, 100, 100,2)
 goku.atributos()
 #goku.cambiar_arma()
 goku.atributos()
